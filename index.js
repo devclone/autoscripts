@@ -382,7 +382,7 @@ async function sale(page, title) {
             let countText = text.split(title)[0]
             let count = parseInt(countText)
             if (count > 0) {
-              console.log('inner-✅售卖第' + count + '个' + title)
+              console.log('inner-Sale' + count + '=' + title)
               const buts = await elem.querySelectorAll('button.button-section')
               for (const but of buts) {
                 if (but.innerText.toLowerCase().includes('exchange')) {
