@@ -7,7 +7,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 const { osLocale } = require('os-locale-s-fix')
 
 
-async function play(account = 'gagxi.wam', pos) {
+async function play(account = 'anyname.wam', pos) {
   let browser = null
   const position = pos * 100
   const DefaultTimeout = 600 * 1000
